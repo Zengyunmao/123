@@ -1,4 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit(); $config = D("Basic")->select(); $navs = D("Menu")->getBarMenus(); ?>
+<?php if (!defined('THINK_PATH')) exit(); dump($result);?>
+<?php
+ $config = D("Basic")->select(); $navs = D("Menu")->getBarMenus(); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,8 +8,11 @@
   <title><?php echo ($config["title"]); ?></title>
   <meta name="keywords" content="<?php echo ($config["keywords"]); ?>" />
   <meta name="description" content="<?php echo ($config["description"]); ?>" />
+  <script src="/Public/js/jquery.js"></script>
   <link rel="stylesheet" href="/Public/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/Public/css/home/main.css" type="text/css" />
+  <script src="/Public/js/dialog/layer.js"></script>
+  <script src="/Public/js/dialog.js"></script>
 </head>
 <body>
 <header id="header">
@@ -32,7 +37,7 @@
         <div class="banner">
           <div class="banner-left">
             <div class="banner-info"><span>阅读数</span><i class="news_count node-<?php echo ($result['topPicNews'][0]['news_id']); ?>" news-id="<?php echo ($result['topPicNews'][0]['news_id']); ?>" id="node-<?php echo ($result['topPicNews'][0]['news_id']); ?>"></i></div>
-            <a target="_blank" href="/index.php?c=detail&id=<?php echo ($result['topPicNews'][0]['news_id']); ?>"><img width="670" height="360" src="<?php echo ($result['topPicNews'][0]['thumb']); ?>" alt=""></a>
+            <a target="_blank" href="/index.php?c=detail&id=<?php echo ($result['topPicNews'][0]['news_id']); ?>"><img width="670" height="360" src="/Public/upload/561cc92ba6c33.jpg" alt=""></a>
           </div>
           <div class="banner-right">
             <ul>

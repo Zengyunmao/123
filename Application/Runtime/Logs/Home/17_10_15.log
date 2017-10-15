@@ -1,0 +1,656 @@
+[ 2017-10-15T16:39:40+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+
+[ 2017-10-15T16:49:50+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003979s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+ERR: 1146:Table 'singcms.cms_news' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+ERR: 1146:Table 'singcms.cms_news' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+
+[ 2017-10-15T16:52:57+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+ERR: 1146:Table 'singcms.cms_news' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+ERR: 1146:Table 'singcms.cms_news' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_news`
+
+[ 2017-10-15T17:00:21+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.125471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034979s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.3693s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0910s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0197s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.412644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.412801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024308s ]
+
+[ 2017-10-15T17:00:34+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0006s ]
+
+[ 2017-10-15T17:03:25+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0023s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0194s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2017-10-15T17:03:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0007s ]
+
+[ 2017-10-15T17:05:17+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-10-15T17:05:18+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0003s ]
+
+[ 2017-10-15T17:06:13+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-10-15T17:06:17+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0006s ]
+
+[ 2017-10-15T17:07:47+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002464s ]
+
+[ 2017-10-15T17:07:49+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0004s ]
+
+[ 2017-10-15T17:08:14+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-10-15T17:08:17+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0009s ]
+
+[ 2017-10-15T19:41:36+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005762s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014342s ]
+
+[ 2017-10-15T19:41:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006108s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0007s ]
+
+[ 2017-10-15T19:42:58+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-10-15T19:43:00+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0005s ]
+
+[ 2017-10-15T20:38:12+08:00 ] 127.0.0.1 /index.php?c=detail&a=view&id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `cms_news` SET `count`='26' WHERE ( news_id=24 ) [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsContentModel.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `cms_news_content` WHERE ( news_id=24 ) LIMIT 1   [ RunTime:0.0775s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.1288s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0849s ]
+SQL: SHOW COLUMNS FROM `cms_comments` [ RunTime:0.2653s ]
+SQL: SELECT * FROM `cms_comments` WHERE ( news_id=24 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 94 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-10-15T22:14:32+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0086s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2017-10-15T22:14:58+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0332s ]
+
+[ 2017-10-15T22:15:34+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-10-15T22:15:44+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0004s ]
+
+[ 2017-10-15T22:25:11+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 2 ORDER BY listorder desc ,id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 ORDER BY listorder desc ,id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title F:\apache\singcms\Application\Common\Model\PositionContentModel.class.php 第 17 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 ORDER BY listorder desc ,id desc LIMIT 2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() F:\apache\singcms\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Undefined index: name F:\apache\singcms\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2017-10-15T22:25:15+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() F:\apache\singcms\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() F:\apache\singcms\Application\Common\Model\NewsModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23','22','21')  [ RunTime:0.0004s ]
+

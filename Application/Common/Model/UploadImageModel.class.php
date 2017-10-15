@@ -14,7 +14,7 @@ class UploadImageModel extends Model {
     public function __construct() {
         $this->_uploadObj = new  \Think\Upload();
 
-        $this->_uploadObj->rootPath = './'.self::UPLOAD.'/';
+        $this->_uploadObj->rootPath = __PUBLIC__'./'.self::UPLOAD.'/';
         $this->_uploadObj->subName = date(Y) . '/' . date(m) .'/' . date(d);
     }
 
@@ -22,7 +22,7 @@ class UploadImageModel extends Model {
         $res = $this->_uploadObj->upload();
 
         if($res) {
-            return '/' .self::UPLOAD . '/' . $res['imgFile']['savepath'] . $res['imgFile']['savename'];
+            return __PUBLIC__'/' .self::UPLOAD . '/' . $res['imgFile']['savepath'] . $res['imgFile']['savename'];
         }else{
             return false;
         }
@@ -32,7 +32,7 @@ class UploadImageModel extends Model {
         $res = $this->_uploadObj->upload();
 
         if($res) {
-            return '/' .self::UPLOAD . '/' . $res['file']['savepath'] . $res['file']['savename'];
+            return __PUBLIC__'/' .self::UPLOAD . '/' . $res['file']['savepath'] . $res['file']['savename'];
         }else{
             return false;
         }
